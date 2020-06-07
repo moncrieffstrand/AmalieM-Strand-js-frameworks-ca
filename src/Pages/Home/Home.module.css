@@ -1,0 +1,81 @@
+
+.home{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.searchContainer{
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.search{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.container{
+    
+    border: 1px solid black;
+    width: 95%;
+    height: 90vh;
+    margin: 1rem auto;
+    /* margin-top: -5rem; */
+    overflow-y: scroll; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    padding: 1rem 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.img{
+    width: 25%;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.row:not(:last-child){
+    border-bottom: 1px solid gray;
+}
+
+.imageBlock{
+    width: 25%;
+    
+}
+
+.image{
+    width: 100%;
+    height:20rem;
+}
+
+.content1{
+    font-size: 1.5rem;
+    width: 15%;
+    text-align:center;
+}
+
+.viewGame{
+    font-size: 1.5rem;
+}

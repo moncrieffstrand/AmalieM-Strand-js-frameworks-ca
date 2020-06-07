@@ -1,0 +1,35 @@
+
+
+.header{
+    display: flex;
+    background: blue;
+    align-items: center;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.link{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
